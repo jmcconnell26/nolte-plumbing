@@ -1,4 +1,5 @@
-//+build mage
+//go:build mage
+// +build mage
 
 package main
 
@@ -8,8 +9,8 @@ import (
 	"github.com/magefile/mage/mg"
 
 	// mage:import
-	"github.com/nolte/plumbing/cmd/golang"
-	"github.com/nolte/plumbing/pkg"
+	"github.com/jmcconnell26/nolte-plumbing/cmd/golang"
+	"github.com/jmcconnell26/nolte-plumbing/pkg"
 )
 
 // GitHubWorkflow Mage Command Namespace.

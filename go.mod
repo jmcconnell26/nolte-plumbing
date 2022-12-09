@@ -1,4 +1,4 @@
-module github.com/nolte/plumbing
+module github.com/jmcconnell26/nolte-plumbing
 
 go 1.14
 

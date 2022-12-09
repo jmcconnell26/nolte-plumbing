@@ -4,8 +4,8 @@ package github
 import (
 	"context"
 
+	"github.com/jmcconnell26/nolte-plumbing/pkg"
 	"github.com/magefile/mage/mg"
-	"github.com/nolte/plumbing/pkg"
 )
 
 // GitHubWorkflow Mage Command Namespace.

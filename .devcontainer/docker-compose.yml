@@ -5,7 +5,7 @@ services:
   vscode:
     image: "docker.pkg.github.com/nolte/vscode-devcontainers/devops:latest"
     volumes:
-      - "../:/go/src/github.com/nolte/plumbing:cached"
+      - "../:/go/src/github.com/jmcconnell26/nolte-plumbing:cached"
       - ~/.ssh:/home/vscode/.ssh:ro
       - /var/run/docker.sock:/var/run/docker.sock
       ## reuse volumes for extensions
